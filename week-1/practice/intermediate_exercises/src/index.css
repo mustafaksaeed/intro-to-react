@@ -1,0 +1,70 @@
+/* .todoitem {
+  display: flex;
+  flex-direction: row;
+} */
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+  gap: 5px; /* Adds some space between buttons */
+  max-width: 300px; /* Adjust as needed */
+  margin: 0 auto; /* Center the calculator */
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional background */
+  border-radius: 5px; /* Optional rounded corners */
+  width: 100%;
+}
+
+.calc-button:active {
+  background-color: #eee;
+}
+
+.inputNumber {
+  gap: 5px; /* Adds some space between buttons */
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto; /* Center the calculator */
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional background */
+  width: 35vh;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  overflow: auto;
+}
+
+.inputNumber p {
+  text-align: center;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center; /* Centers content horizontally */
+  align-items: center; /* Centers content vertically */
+  flex-direction: column; /* Arranges items in a column */
+  min-height: 100vh; /* Ensures the container takes up at least the full viewport height */
+  width: 100vhw; /* Ensures the container takes up the full viewport width */
+  margin: 0; /* Removes default body margins that might interfere */
+}
+
+.calcOutput {
+  gap: 5px; /* Adds some space between buttons */
+  max-width: 400px; /* Adjust as needed */
+  margin: 0 auto; /* Center the calculator */
+  padding: 10px;
+  background-color: #f0f0f0; /* Optional background */
+  width: 35vh;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+  overflow: auto;
+}
+
+.lightMode {
+  background-color: white;
+  color: black;
+}
+
+.darkMode {
+  background-color: black;
+  color: white;
+}
+
+
